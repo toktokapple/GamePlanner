@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="70dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp">
+
+                <TextView
+                    android:layout_width="42dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top"
+                    android:text="캘린더"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="top"
+                    android:text="완료된 일정, 할일 보기"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="90dp"
+                    android:gravity="top"
+                    android:text="확인된 게시글 표시"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="top"
+                    android:text="달력 글자 크기"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="170dp"
+                    android:gravity="top"
+                    android:text="화면 테마"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="210dp"
+                    android:gravity="top"
+                    android:text="일정 자동 입력"
+                    android:textColor="#000000" />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/Widget.AppCompat.CompoundButton.Switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="10dp" />
+
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/Widget.AppCompat.CompoundButton.Switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginRight="10dp" />
+
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/Widget.AppCompat.CompoundButton.Switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginRight="10dp" />
+
+                <LinearLayout
+                    android:id="@+id/checkline1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_gravity="bottom"
+                    android:background="#21000000"></LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="280dp">
+
+                <TextView
+                    android:layout_width="42dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top"
+                    android:text="일반"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="top"
+                    android:text="계정 관리"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="90dp"
+                    android:gravity="top"
+                    android:text="알림 설정"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="top"
+                    android:text="동기화"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="170dp"
+                    android:gravity="top"
+                    android:text="동기화 기간"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="210dp"
+                    android:gravity="top"
+                    android:text="피드백"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="250dp"
+                    android:gravity="top"
+                    android:text="도움말"
+                    android:textColor="#000000" />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/Widget.AppCompat.CompoundButton.Switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="10dp" />
+
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/Widget.AppCompat.CompoundButton.Switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginRight="10dp" />
+
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/Widget.AppCompat.CompoundButton.Switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginRight="10dp" />
+
+                <LinearLayout
+                    android:id="@+id/checkline1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_gravity="bottom"
+                    android:background="#21000000"></LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="600dp">
+
+                <TextView
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="top"
+                    android:text="법률정보 및 이용약관"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="132dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="90dp"
+                    android:gravity="top"
+                    android:text="프로그램 정보"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/checkline1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_gravity="bottom"
+                    android:background="#21000000"></LinearLayout>
+
+            </FrameLayout>
+
+        </FrameLayout>
+    </ScrollView>
+
+</FrameLayout>

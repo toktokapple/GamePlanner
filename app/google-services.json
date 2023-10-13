@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1036939744422",
+    "project_id": "gameplanner-a5110",
+    "storage_bucket": "gameplanner-a5110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036939744422:android:0c3fc9db024056427e1067",
+        "android_client_info": {
+          "package_name": "com.example.frame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036939744422-i9jk6blsppaap7bahfbgstmhmc5j0tto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjBGbCVIzlILmezfuLwc2IaUnC3ukz9EY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036939744422-i9jk6blsppaap7bahfbgstmhmc5j0tto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

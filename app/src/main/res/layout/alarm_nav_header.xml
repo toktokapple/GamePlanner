@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@drawable/arrowleft" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="30dp"
+        android:text="알림함"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/alarmeraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="205dp"
+        android:text="지우기"
+        android:textColor="#3761F8"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vector_61"
+        android:layout_width="277dp"
+        android:layout_height="0.5dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="40dp"
+        android:background="#000000"></TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="50dp">
+
+        <FrameLayout
+            android:id="@+id/alarm1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/alarm1arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="235dp"
+                app:srcCompat="@drawable/arrowrightblack" />
+
+            <ImageView
+                android:id="@+id/dashedline1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/dashedline" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/alarm2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp">
+
+            <ImageView
+                android:id="@+id/alarm2arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="235dp"
+                app:srcCompat="@drawable/arrowrightblack" />
+
+            <ImageView
+                android:id="@+id/dashedline2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/dashedline" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/alarm3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="120dp">
+
+            <ImageView
+                android:id="@+id/alarm3arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="235dp"
+                app:srcCompat="@drawable/arrowrightblack" />
+
+            <ImageView
+                android:id="@+id/dashedline3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/dashedline" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/alarm4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="180dp">
+
+            <ImageView
+                android:id="@+id/alarm4arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="235dp"
+                app:srcCompat="@drawable/arrowrightblack" />
+
+            <ImageView
+                android:id="@+id/dashedline4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/dashedline" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/alarm5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="240dp">
+
+            <ImageView
+                android:id="@+id/alarm5arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="235dp"
+                app:srcCompat="@drawable/arrowrightblack" />
+
+            <ImageView
+                android:id="@+id/dashedline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/dashedline" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/alarm6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="300dp">
+
+            <ImageView
+                android:id="@+id/alarm6arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="235dp"
+                app:srcCompat="@drawable/arrowrightblack" />
+
+            <ImageView
+                android:id="@+id/dashedline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/dashedline" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

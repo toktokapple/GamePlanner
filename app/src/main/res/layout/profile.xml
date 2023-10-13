@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:layout_marginBottom="60dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ProfileEllipse"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/profileellipse" />
+
+                <ImageView
+                    android:id="@+id/ProfileEdit"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="132dp"
+                    app:srcCompat="@drawable/profileeditellipse" />
+
+                <ImageView
+                    android:id="@+id/ProfilePencil"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="136dp"
+                    app:srcCompat="@drawable/pencilblack" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="200dp"
+                    android:text="이름 / 닉네임"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="230dp"
+                    android:text="Security" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="330dp"
+                    android:text="+82 10-1234-5678" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="430dp"
+                    android:text="korea@google.com" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="230dp"
+                    android:text="2000/01/12" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="200dp"
+                    android:text="출생년도"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="300dp"
+                    android:text="전화번호"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="400dp"
+                    android:text="이메일"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/line_4"
+                    android:layout_width="204dp"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="250dp"
+                    android:background="#1D1D1D" />
+
+                <TextView
+                    android:id="@+id/line_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#1D1D1D" />
+
+                <TextView
+                    android:id="@+id/line_"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#1D1D1D" />
+
+                <TextView
+                    android:id="@+id/line_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="450dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#1D1D1D" />
+
+                <ImageView
+                    android:id="@+id/NameEdit"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="210dp"
+                    android:layout_marginTop="230dp"
+                    app:srcCompat="@drawable/minipencil" />
+
+                <ImageView
+                    android:id="@+id/BirthEdit"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginRight="18dp"
+                    app:srcCompat="@drawable/minipencil" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="18dp"
+                    app:srcCompat="@drawable/minipencil" />
+
+                <ImageView
+                    android:id="@+id/PhoneEdit"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="330dp"
+                    android:layout_marginRight="18dp"
+                    app:srcCompat="@drawable/minipencil" />
+
+            </FrameLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</FrameLayout>

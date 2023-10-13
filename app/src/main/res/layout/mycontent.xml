@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:layout_marginBottom="60dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="top"
+                android:text="오늘"
+                android:textColor="#9D9D9D" />
+
+            <TextView
+                android:id="@+id/checkline1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentBottom="false"
+                android:layout_gravity="left"
+                android:layout_marginTop="400dp"
+                android:background="#21000000"></TextView>
+
+            <TextView
+                android:id="@+id/some_id2"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_gravity="top"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="420dp"
+                android:gravity="top"
+                android:text="어제"
+                android:textColor="#9D9D9D" />
+        </FrameLayout>
+    </ScrollView>
+
+</FrameLayout>

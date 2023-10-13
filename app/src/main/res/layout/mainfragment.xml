@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="70dp"
+    android:background="#FAF9FE"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <CalendarView
+                    android:id="@+id/macar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewpager2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"></androidx.viewpager2.widget.ViewPager2>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="#FAF9FE">
+
+                <TextView
+                    android:id="@+id/my_game"
+                    android:layout_width="70dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="My Game"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAF9FE">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+
+                            <TextView
+                                android:id="@+id/Maplestory"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:background="@drawable/mygamemaple"
+                                android:gravity="bottom"
+                                android:paddingLeft="15dp"
+                                android:paddingBottom="15dp"
+                                android:text="메이플스토리"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/mush"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/Maplestory"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="50dp"
+                                app:srcCompat="@drawable/mushx1" />
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="30dp"
+                                app:srcCompat="@drawable/water" />
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|right"
+                                android:layout_marginRight="13dp"
+                                android:layout_marginBottom="13dp"
+                                app:srcCompat="@drawable/maplebutton" />
+
+                            <TextView
+                                android:id="@+id/textView31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|top"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginRight="12dp"
+                                android:text="0%"
+                                android:textColor="#FFFFFF"
+                                android:textStyle="bold" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+
+                            <TextView
+                                android:id="@+id/Lostarc"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:background="@drawable/mygamelostarc"
+                                android:gravity="bottom"
+                                android:paddingLeft="15dp"
+                                android:paddingBottom="20dp"
+                                android:text="로스트아크"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="30dp"
+                                app:srcCompat="@drawable/water" />
+
+                            <ImageView
+                                android:id="@+id/imageView14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|right"
+                                android:layout_marginRight="13dp"
+                                android:layout_marginBottom="13dp"
+                                app:srcCompat="@drawable/lostarcbutton" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+
+                            <TextView
+                                android:id="@+id/FIFA"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:background="@drawable/mygamefifa"
+                                android:gravity="bottom"
+                                android:paddingLeft="15dp"
+                                android:paddingBottom="20dp"
+                                android:text="피파온라인4"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="30dp"
+                                app:srcCompat="@drawable/water" />
+
+                            <ImageView
+                                android:id="@+id/imageView15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|right"
+                                android:layout_marginRight="13dp"
+                                android:layout_marginBottom="13dp"
+                                app:srcCompat="@drawable/fifabutton" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+
+                            <TextView
+                                android:id="@+id/PUBG"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:background="@drawable/mygamepubg"
+                                android:gravity="bottom"
+                                android:paddingLeft="15dp"
+                                android:paddingBottom="20dp"
+                                android:text="배틀그라운드"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="30dp"
+                                app:srcCompat="@drawable/water" />
+
+                            <ImageView
+                                android:id="@+id/imageView16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|right"
+                                android:layout_marginRight="13dp"
+                                android:layout_marginBottom="13dp"
+                                app:srcCompat="@drawable/pubgbutton" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+
+                            <TextView
+                                android:id="@+id/Valorant"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:background="@drawable/mygamemaple"
+                                android:gravity="bottom"
+                                android:paddingLeft="15dp"
+                                android:paddingBottom="20dp"
+                                android:text="발로란트"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="30dp"
+                                app:srcCompat="@drawable/water" />
+
+                            <ImageView
+                                android:id="@+id/imageView17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|right"
+                                android:layout_marginRight="13dp"
+                                android:layout_marginBottom="13dp"
+                                app:srcCompat="@drawable/lostarcbutton" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp">
+
+                            <TextView
+                                android:id="@+id/LegueOfLegend"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:background="@drawable/mygamemaple"
+                                android:gravity="bottom"
+                                android:paddingLeft="15dp"
+                                android:paddingBottom="20dp"
+                                android:text="리그오브레전드"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageView11"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="30dp"
+                                app:srcCompat="@drawable/water" />
+
+                            <ImageView
+                                android:id="@+id/imageView18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|right"
+                                android:layout_marginRight="13dp"
+                                android:layout_marginBottom="13dp"
+                                app:srcCompat="@drawable/lostarcbutton" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FAF9FE">
+
+                <TextView
+                    android:id="@+id/to_do_list"
+                    android:layout_width="72dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="To Do List"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/DayFragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/slide" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

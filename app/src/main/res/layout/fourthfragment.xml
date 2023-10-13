@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="70dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/ProfileFrame"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/myprofile">
+
+                <ImageView
+                    android:id="@+id/MyProfileEllipse"
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/profileellipse"
+                    android:elevation="4dp">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/profileid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="135dp"
+                    android:layout_marginTop="50dp"
+                    android:text="톡톡톡 사과맛"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="normal|bold" />
+
+                <ImageView
+                    android:id="@+id/profilearrow"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginBottom="14dp"
+                    android:clipToOutline="true"
+                    android:src="@drawable/arrowright" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/MyGame"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mygame">
+
+                <ImageView
+                    android:id="@+id/gamepad"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clipToOutline="true"
+                    android:src="@drawable/gamepad" />
+
+                <TextView
+                    android:layout_width="49dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="55dp"
+                    android:gravity="center_horizontal|top"
+                    android:text="내 게임"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gamearrow"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:clipToOutline="true"
+                    android:src="@drawable/arrowright" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/MyContent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/mycontent">
+
+                <ImageView
+                    android:id="@+id/heart"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clipToOutline="true"
+                    android:src="@drawable/heart" />
+
+                <TextView
+                    android:layout_width="49dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="55dp"
+                    android:gravity="center_horizontal|top"
+                    android:text="내 활동"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/contentarrow"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:clipToOutline="true"
+                    android:src="@drawable/arrowright" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
